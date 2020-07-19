@@ -1,0 +1,24 @@
+﻿<metro:MetroWindow
+    x:Class="XmlViewer.Editor.View.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+    xmlns:uc="clr-namespace:XmlViewer.Editor.View.UserControls"
+    xmlns:local="clr-namespace:XmlViewer.Editor.View"
+    mc:Ignorable="d"
+    Title="XmlViewer"
+    TitleCharacterCasing="Normal"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized"
+    MinHeight="960"
+    Height="960"
+    MinWidth="1280"
+    Width="1280"
+    Icon="pack://application:,,,/Resources/Icon.ico">
+    <Grid>
+        <uc:PresentationUC DataContext="{Binding PresentationVM}" />
+        <uc:EditorUC DataContext="{Binding EditorVM}" />
+    </Grid>
+</metro:MetroWindow>
