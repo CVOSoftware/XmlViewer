@@ -12,10 +12,10 @@
     TitleCharacterCasing="Normal"
     WindowStartupLocation="CenterScreen"
     WindowState="Maximized"
-    MinHeight="960"
-    Height="960"
-    MinWidth="1280"
-    Width="1280"
+    MinHeight="640"
+    Height="640"
+    MinWidth="1024"
+    Width="1024"
     Icon="pack://application:,,,/Resources/Icon.ico">
     <Grid>
         <uc:PresentationUC DataContext="{Binding PresentationVM}" />

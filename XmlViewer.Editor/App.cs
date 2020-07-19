@@ -24,7 +24,7 @@ namespace XmlViewer.Editor
             {
                 new Uri("pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml"),
                 new Uri("pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml"),
-                new Uri("pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.orange.xaml")
+                new Uri("pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Blue.xaml")
             };
         }
 
