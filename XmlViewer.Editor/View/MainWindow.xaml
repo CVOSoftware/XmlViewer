@@ -8,7 +8,7 @@
     xmlns:uc="clr-namespace:XmlViewer.Editor.View.UserControls"
     xmlns:local="clr-namespace:XmlViewer.Editor.View"
     mc:Ignorable="d"
-    Title="XmlViewer"
+    Title="XML viewer v.2020.1.0"
     TitleCharacterCasing="Normal"
     WindowStartupLocation="CenterScreen"
     WindowState="Maximized"
